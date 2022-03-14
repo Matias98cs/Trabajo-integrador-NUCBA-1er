@@ -1144,6 +1144,265 @@
         }
     }
     
+    @media (max-width: 414px) {
+        .nav-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 350px;
+            padding: 0;
+            gap: 0;
+        }
+        .home {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+        }
+        .home-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 350px;
+        }
+        .home-title h1 {
+            font-size: 30px;
+            width: 350px;
+        }
+        .home-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .home-text p {
+            width: 350px;
+            font-size: 14px;
+        }
+        .home-join {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            gap: 2em;
+        }
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+        .desc-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 320px;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+        }
+        .about-box {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-img img {
+            max-width: 290px;
+        }
+        .about-text {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 1.5em;
+        }
+        .testimonials {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .test-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            gap: 1em;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        .test-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+        }
+        .card-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+        }
+        .gallery-box {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery-col-1 {
+            display: flex;
+            padding: 1.2em;
+            width: 300px;
+        }
+        .gallery-col-2 {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            grid-template-columns: 280px;
+        }
+        .col-2-photo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .plans-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+        }
+        .plans-title {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        .plans-title h3 {
+            font-display: 18px;
+        }
+        .plans-title p {
+            font-size: 15px;
+        }
+        .plans-card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            gap: 2em;
+        }
+        .plans-card {
+            display: flex;
+            flex-direction: column;
+            width: 290px;
+        }
+        .plan-card-title p {
+            font-size: 10px;
+        }
+        .plan-card-price h5 {
+            font-size: 40px;
+        }
+        .plan-card-price p {
+            font-size: 13px;
+            width: 220px;
+        }
+        .plan-card-description ol {
+            font-size: 12px;
+            padding: 1em;
+        }
+        .plan-card-btn a {
+            padding: 20px 50px 20px 50px;
+        }
+        .location {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+        }
+        .location-col-1 {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 300px;
+            padding: 2em;
+        }
+        .location-img {
+            width: 410px;
+            height: 300px;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 420px;
+        }
+        .contact-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 4em;
+            margin-top: 4em;
+        }
+        .contact-col-1 {
+            width: 300px;
+        }
+        .contact-title p {
+            font-size: 30px;
+        }
+        .contact-col-2 {
+            width: 280px;
+        }
+        .contact-col-2-box {
+            width: 300px;
+        }
+        .contact-btn button {
+            padding: 20px 30px 20px 30px;
+            width: 100%;
+            font-size: 13px;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 420px;
+        }
+        .footer-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+        }
+        .footer-copy p {
+            font-size: 12px;
+        }
+        .footer-btns ol {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-btns ol>li {
+            font-size: 10px;
+        }
+        .footer-btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
     @media (max-width: 320px) {
         nav {
             display: flex;
